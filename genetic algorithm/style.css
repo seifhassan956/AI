@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: darkgray;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#verticalBtn{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: lightblue;
+}
+
+#myCanvas{
+    background-color: lightgray;
+}
